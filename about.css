@@ -1,0 +1,41 @@
+body{
+  padding: 0;
+  margin: 0 0 0 0;
+  background: #030006;
+  box-sizing: border-box;
+  color: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+}
+.profil{
+  width:100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0;
+  font-size: 1.5rem;
+  font-weight: 500;
+  background: #f73a66;
+}
+.name{
+  font-weight: 600;
+  font-size: 40px;
+}
+.profil img{
+  width: 200px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 100px 0 100px;
+  margin: 0 0 20px 0;
+  border: 0px solid white;
+}
+.button{
+  color: white;
+  margin-top: auto;
+  margin-bottom: 20px;
+}
