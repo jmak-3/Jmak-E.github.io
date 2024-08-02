@@ -14,9 +14,18 @@
     <span class="name">Joel Makiese</span>
     <span>Web developer </span>
   </div>
+  
+  <div class="cont">
+    <div class="carre1 carre"></div>
+    <div class="carre2 carre"></div>
+  </div>
+  <a class="button" href="index.html" >‹‹Home</a>
 
-  <a class="button" href="index.html">‹‹Home</a>
-
-<script src="main.js"></script>
+<script>
+  let carre = document.querySelectorAll('.carre');
+  carre[0].innerHTML = '\u{1F603}';
+  carre[1].innerHTML = '\u{2764}';
+//  console.log(carre);
+</script>
 </body>
 </html>

@@ -37,5 +37,40 @@ body{
 .button{
   color: white;
   margin-top: auto;
-  margin-bottom: 20px;
+  margin-bottom: 80px;
+  font-weight: 500;
+}
+.cont{
+  display: flex;
+  height: 50%;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+}
+.carre1, .carre2{
+  width: 100px;
+  height: 100px;
+  border: solid 2px white;
+  font-size: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 1px 0px 25px white;
+}
+.carre1{
+  animation: scaled1 1s .5s ease infinite alternate;
+}
+.carre2{
+  animation: scaled2 1s 1.2s ease infinite alternate;
+}
+
+@keyframes scaled1 {
+  100% {
+    transform: scale(1.2);
+  }
+}
+@keyframes scaled2 {
+  100%{
+    transform: scale(1.2)
+  }
 }
